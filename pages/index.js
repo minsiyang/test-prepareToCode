@@ -8,12 +8,16 @@ export default function Home() {
       <Head>
         <title>Prepare to Code</title>
       </Head>
-      <h1 className={styles.title}>Prepare to Code</h1>
+      <h1 className={styles.title}>
+        Prepare
+        <br /> 
+        to Code
+        </h1>
       <p className={styles.description}>Pick your operating system</p>
       <Link href='/homebrew' >
-        <a>OS X</a>
+        <a className={styles.system}>OS X</a>
       </Link>
-
+      <div className={styles.logo}></div>
     </div>
   )
 }
