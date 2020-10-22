@@ -1,7 +1,9 @@
+
 .navigation {
-  margin: 40px 0 60px 20px;
+  margin: 40px 0 40px 20px;
   list-style: none;
   color: #332E2E;
+  max-width: 50%;
 }
 
 .navigation li {
@@ -18,13 +20,45 @@
   padding: 0 15px;
 }
 
-.step {
+.stepContent {
   margin-left: 58px;
-  max-width: 60%;
+  max-width: 50%;
   color: #332E2E;
 }
 
-.step h1 {
+.stepContent h1 {
   padding-bottom: 20px;
   border-bottom: 3px solid #332E2E;
+}
+
+.stepContent h2 {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.stepContent img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.stepContent h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.instruction {
+  border: 3px solid #ffff;
+  padding: 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.action {
+  border: 3px solid #ffff;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 50px;
 }
