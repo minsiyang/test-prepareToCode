@@ -7,6 +7,58 @@
   align-items: center;
 }
 
+.title {
+  margin: 0;
+  margin-bottom: 70px;
+  line-height: 1.15;
+  font-size: 7rem;
+  color: #332E2E;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #332E2E;
+}
+
+.system {
+  background-color: #b8dba3;
+  border: 2px solid #ffff;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #332E2E;
+  margin-bottom: 80px;
+}
+
+.system:hover {
+  background-color: palegoldenrod;
+  box-shadow: 2px 2px 5px #726D6D;
+}
+
+.logo {
+  width: 100px;
+  height: 75px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  position: relative;
+  background: #332E2E;
+  margin-bottom: 20px;
+} 
+
+.logo:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-top: 40px solid #cce4bd;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
 /* .main {
   padding: 5rem 0;
   flex: 1;
@@ -46,41 +98,10 @@
   text-decoration: underline;
 } */
 
-.title {
-  margin: 0;
-  margin-bottom: 70px;
-  line-height: 1.15;
-  font-size: 7rem;
-  color: #332E2E;
-}
-
 /* .title,
 .description {
   text-align: center;
 } */
-
-.description {
-  line-height: 1.5;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 30px;
-  color: #332E2E;
-}
-
-.system {
-  background-color: #b8dba3;
-  border: 2px solid #ffff;
-  padding: 15px 20px;
-  border-radius: 10px;
-  font-size: 25px;
-  color: #332E2E;
-  margin-bottom: 80px;
-}
-
-.system:hover {
-  background-color: palegoldenrod;
-  box-shadow: 2px 2px 5px #726D6D;
-}
 
 /* .code {
   background: #fafafa;
@@ -130,31 +151,11 @@
   line-height: 1.5;
 }*/
 
-.logo {
-  width: 100px;
-  height: 75px;
-  box-sizing: content-box;
-  padding-top: 15px;
-  position: relative;
-  background: #332E2E;
-  margin-bottom: 20px;
-} 
 
-.logo:after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 0;
-  height: 0;
-  border-top: 40px solid #cce4bd;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-}
-
+/* 
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
-}
+} */
